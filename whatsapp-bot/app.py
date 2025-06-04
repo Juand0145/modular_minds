@@ -28,9 +28,12 @@ def webhook():
 
     bot_response = gpt_connection(incoming_msg)
     
-    # Create WhatsApp response
+    # Split the response into chunks of max 1000 characters
+    MAX_LENGTH = 1000
     response = MessagingResponse()
-    response.message(bot_response)
+    for i in range(0, len(bot_response), MAX_LENGTH):
+        part = bot_response[i:i+MAX_LENGTH]
+        response.message(part)
     print(str(response)) 
     
     return str(response)

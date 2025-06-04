@@ -1,0 +1,9 @@
+name: modular_minds
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - flask
+  - twilio
+  - python-dotenv
+  - openai 
