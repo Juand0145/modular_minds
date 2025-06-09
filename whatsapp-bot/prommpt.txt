@@ -1,0 +1,15 @@
+Extract the following parameters from the provided text and return them in JSON format:
+
+{
+  "name": "",      // Name of the main concept, tool, or technology mentioned in the text
+  "type": "",      // General category or type (e.g., protocol, tool, model, standard, etc.)
+  "purpose": "",   // Immediate function or intended use
+  "goal": ""       // Long-term objective or intended impact
+}
+Text:
+
+Today, we're open-sourcing the Model Context Protocol (MCP), a new standard for connecting AI assistants to the systems where data lives, including content repositories, business tools, and development environments. Its aim is to help frontier models produce better, more relevant responses.
+
+As AI assistants gain mainstream adoption, the industry has invested heavily in model capabilities, achieving rapid advances in reasoning and quality. Yet even the most sophisticated models are constrained by their isolation from data?trapped behind information silos and legacy systems. Every new data source requires its own custom implementation, making truly connected systems difficult to scale.
+
+MCP addresses this challenge. It provides a universal, open standard for connecting AI systems with data sources, replacing fragmented integrations with a single protocol. The result is a simpler, more reliable way to give AI systems access to the data they need.
