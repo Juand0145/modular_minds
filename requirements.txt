@@ -1,2 +1,6 @@
 twilio
-openai 
+openai
+flask
+python-dotenv
+SQLAlchemy
+psycopg2-binary

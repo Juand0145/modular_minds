@@ -7,3 +7,5 @@ dependencies:
   - twilio
   - python-dotenv
   - openai 
+  - sqlalchemy
+  - psycopg2
